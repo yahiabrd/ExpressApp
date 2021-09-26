@@ -2,7 +2,7 @@
 
 Back-end used with the Front-end https://github.com/yahiabrd/AnguApp
 
-Features :
+Features (routes/users.js) :
 - Mongoose connection
 - JWT token verification
 - Fetch all users
