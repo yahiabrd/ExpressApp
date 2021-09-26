@@ -6,8 +6,9 @@ const mongoose = require('mongoose')
 //
 const jwt = require('jsonwebtoken');
 const accessTokenSecret = 'secretKey';
-const con = "" // to be modified
-mongoose.connect(con, {
+var sha1 = require('sha1')
+
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true 
 });
